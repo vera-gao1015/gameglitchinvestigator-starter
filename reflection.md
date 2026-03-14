@@ -63,11 +63,20 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 
 - How would you explain Streamlit "reruns" and session state to a friend who has never used Streamlit?
 
+  Streamlit is like a movie that replays from the beginning every time you interact with it. Every time you click a button or type something, the entire script runs again from top to bottom. This means normal variables reset to their starting values each time. That's where `st.session_state` comes in - it's like a notebook that remembers things between reruns. So if you want to keep track of the secret number, your score, or your guess history, you store them in session state and they'll stick around even when the script reruns.
+
 ---
 
 ## 5. Looking ahead: your developer habits
 
 - What is one habit or strategy from this project that you want to reuse in future labs or projects?
-  - This could be a testing habit, a prompting strategy, or a way you used Git.
+
+  I want to keep using pytest to verify my fixes instead of just manually testing. Writing tests like `test_too_high()` helped me catch bugs I might have missed, and they give me confidence that my code actually works. It's also easier to see exactly what's broken when a test fails with a clear assertion error.
+
 - What is one thing you would do differently next time you work with AI on a coding task?
+
+  Next time I'll test AI suggestions before assuming they'll work. When AI suggested putting regular buttons inside a Streamlit form, I should have quickly tested it instead of trusting it completely. Running the code first would have saved time and taught me about Streamlit's constraints faster.
+
 - In one or two sentences, describe how this project changed the way you think about AI generated code.
+
+  AI can write code fast, but it's not always correct - it can make mistakes just like humans. I learned that AI is a helpful teammate for getting started and explaining concepts, but I still need to test everything and understand what the code is actually doing before trusting it.
