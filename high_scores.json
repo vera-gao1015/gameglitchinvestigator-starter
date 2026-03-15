@@ -1,0 +1,31 @@
+{
+  "Easy": [
+    {
+      "attempts": 1,
+      "player_name": "Anonymous",
+      "score": 80,
+      "timestamp": "2026-03-15T06:35:28.817187+00:00"
+    },
+    {
+      "attempts": 2,
+      "player_name": "Anonymous",
+      "score": 65,
+      "timestamp": "2026-03-15T06:35:04.226294+00:00"
+    }
+  ],
+  "Hard": [],
+  "Normal": [
+    {
+      "attempts": 4,
+      "player_name": "Anonymous",
+      "score": 45,
+      "timestamp": "2026-03-15T05:33:31.335385+00:00"
+    },
+    {
+      "attempts": 4,
+      "player_name": "Anonymous",
+      "score": 35,
+      "timestamp": "2026-03-15T07:03:45.263157+00:00"
+    }
+  ]
+}
