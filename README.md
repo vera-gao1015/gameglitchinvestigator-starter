@@ -46,9 +46,9 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📸 Demo
 
-- [(image.png)] [Insert a screenshot of your fixed, winning game here]
+![Pytest results](image.png)
 
 ## 🚀 Stretch Features
 
-- [(image-1.png)]
-- [(image-2.png)]
+![Feature 1](image-1.png)
+![Feature 2](image-2.png)
